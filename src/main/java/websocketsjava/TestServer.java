@@ -1,3 +1,4 @@
+package websocketsjava;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -46,7 +47,7 @@ public class TestServer extends Thread {
     }
 
     public static void main(String[] args) {
-        System.out.println("TestServer Example");
+        System.out.println("websocketsjava.TestServer Example");
         ServerSocket server = null;
         try {
             server = new ServerSocket(PORT_NUMBER);
